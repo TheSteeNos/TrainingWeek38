@@ -89,4 +89,4 @@ const DICTIONARY_ML = {
 };
 
 console.log(`${DICTIONARY.en.hello} Christian ${DICTIONARY.en.howAreYou}`); //-> Hi Christian, how are you?
-console.log(`${DICTIONARY.en.goodQuestionsLatly}`); //-> Gotten any good questions lately?
+console.log(`${DICTIONARY.en.goodQuestionsLately}`); //-> Gotten any good questions lately?
