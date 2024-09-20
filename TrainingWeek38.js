@@ -29,8 +29,17 @@ for (let index = 0; index < people.length; index++) {
     * Days until your birthday
     * Millimeters of rain that falls
 */
-console.log("Task: A");
 
+console.log(" ")
+console.log("Task: A");
+console.log(" ")
+
+const HOURS_PER_DAY = 24;
+const MINUTES_PER_HOUR = 60;
+const SECONDS_PER_MINUTE = 60;
+let ratioOfJuiceAndWaterMix = 1/9;
+let daysUntilMyBirthday = 204;
+let millimetersOfFallingRain = 3;
 
 /*
     Task: B
@@ -43,40 +52,79 @@ console.log("Task: A");
     const dlInCups = 2.36588;
     const amountOfDL = dlInCups * 4.5;
 */
-console.log("Task: B");
 
+console.log(" ")
+console.log("Task: B");
+console.log(" ")
 
 /*
     Task: C
     Use a loop (for) to print the numbers from 1 to 10.
 */
+
+console.log(" ")
 console.log("Task: C");
+console.log(" ")
+
+let numberPrintRise = 0
+for(let i = 0; i < 10; i++){
+    numberPrintRise++   
+    console.log(numberPrintRise) 
+} 
 
 /*
     Task: D
     Use a loop (for) to print the numbers from 10 to 1.
 */
+
+console.log(" ")
 console.log("Task: D");
+console.log(" ")
+
+let numberPrintDecrease = 11
+for(let i = 0; i < 10; i++){
+    numberPrintDecrease--   
+    console.log(numberPrintDecrease) 
+} 
 
 /*
     Task: E
     This one is a bit more difficult, but you can do it ;)
     Use a loop (for) to print the even numbers between 1 and 100.
 */
+
+console.log(" ")
 console.log("Task: E");
+console.log(" ")
+
+let numberPrint = 0
+for(let i = 0; i < 50; i++){
+    numberPrint++
+    numberPrint++
+    console.log(numberPrint) 
+} 
 
 /*
     Task: F
     Use a while loop to print all the numbers from 0 to 100;
 */
+
+console.log(" ")
 console.log("Task: F");
+console.log(" ")
+
 
 
 /*
     Task: G
     Fill in the code needed to make the following code print the expected result.
 */
+
+console.log(" ")
 console.log("Task: G");
+console.log(" ")
+
+
 
 const DICTIONARY_ML = {
     no: {
