@@ -145,8 +145,9 @@ console.log(" ")
 
 const DICTIONARY_ML = {
     no: {
-        hello: "Hello there",
-        howAreYou: "How are you doing?"
+        hello: "Hallo",
+        howAreYou: "Hvordan går det?",
+        goodQuestionsLately: "Fått noen bra spørsmål i det siste?"
     },
     en: {
         hello: "Hello there",
