@@ -59,9 +59,12 @@ console.log(" ");
 
 const SECONDS_PER_HOUR = SECONDS_PER_MINUTE * MINUTES_PER_HOUR
 const amountOfSeconds = SECONDS_PER_HOUR * 2.5
+console.log(amountOfSeconds)
+console.log(" ");
 
 const MINUTES_PER_DAY = MINUTES_PER_HOUR * HOURS_PER_DAY
 const amountOfMinutes = MINUTES_PER_DAY * 123
+console.log(amountOfMinutes)
 
 /*
     Task: C
@@ -146,9 +149,12 @@ const DICTIONARY_ML = {
         howAreYou: "How are you doing?"
     },
     en: {
-
+        hello: "Hello there",
+        howAreYou: "How are you doing?",
+        goodQuestionsLately: "Gotten any good questions lately?"
     }
 };
 
-console.log(`${DICTIONARY.en.hello} Christian ${DICTIONARY.en.howAreYou}`); //-> Hi Christian, how are you?
-console.log(`${DICTIONARY.en.goodQuestionsLately}`); //-> Gotten any good questions lately?
+console.log(`${DICTIONARY_ML.en.hello} Christian. ${DICTIONARY_ML.en.howAreYou}`); //-> Hi Christian, how are you?
+console.log(`${DICTIONARY_ML.en.goodQuestionsLately}`); //-> Gotten any good questions lately?
+console.log(" ")
