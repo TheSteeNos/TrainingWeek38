@@ -17,7 +17,7 @@ const people = ["Tony", "Christian", "Håkon"];
 for (let index = 0; index < people.length; index++) {
     let person = people[index];
     console.log(person);
-}
+};
 
 /*
     Task: A
@@ -30,9 +30,9 @@ for (let index = 0; index < people.length; index++) {
     * Millimeters of rain that falls
 */
 
-console.log(" ")
+console.log(" ");
 console.log("Task: A");
-console.log(" ")
+console.log(" ");
 
 const HOURS_PER_DAY = 24;
 const MINUTES_PER_HOUR = 60;
@@ -53,39 +53,45 @@ let millimetersOfFallingRain = 3;
     const amountOfDL = dlInCups * 4.5;
 */
 
-console.log(" ")
+console.log(" ");
 console.log("Task: B");
-console.log(" ")
+console.log(" ");
+
+const SECONDS_PER_HOUR = SECONDS_PER_MINUTE * MINUTES_PER_HOUR
+const amountOfSeconds = SECONDS_PER_HOUR * 2.5
+
+const MINUTES_PER_DAY = MINUTES_PER_HOUR * HOURS_PER_DAY
+const amountOfMinutes = MINUTES_PER_DAY * 123
 
 /*
     Task: C
     Use a loop (for) to print the numbers from 1 to 10.
 */
 
-console.log(" ")
+console.log(" ");
 console.log("Task: C");
-console.log(" ")
+console.log(" ");
 
 let numberPrintRise = 0
 for(let i = 0; i < 10; i++){
     numberPrintRise++   
     console.log(numberPrintRise) 
-} 
+};
 
 /*
     Task: D
     Use a loop (for) to print the numbers from 10 to 1.
 */
 
-console.log(" ")
+console.log(" ");
 console.log("Task: D");
-console.log(" ")
+console.log(" ");
 
 let numberPrintDecrease = 11
 for(let i = 0; i < 10; i++){
     numberPrintDecrease--   
     console.log(numberPrintDecrease) 
-} 
+};
 
 /*
     Task: E
@@ -93,27 +99,37 @@ for(let i = 0; i < 10; i++){
     Use a loop (for) to print the even numbers between 1 and 100.
 */
 
-console.log(" ")
+console.log(" ");
 console.log("Task: E");
-console.log(" ")
+console.log(" ");
 
 let numberPrint = 0
 for(let i = 0; i < 50; i++){
     numberPrint++
     numberPrint++
     console.log(numberPrint) 
-} 
+};
 
 /*
     Task: F
     Use a while loop to print all the numbers from 0 to 100;
 */
 
-console.log(" ")
+console.log(" ");
 console.log("Task: F");
-console.log(" ")
+console.log(" ");
 
+let countCondition = true;
+let listOfNumbers = 0;
 
+while (countCondition == true) {
+console.log(listOfNumbers)
+listOfNumbers++
+
+if (listOfNumbers == 101) {
+    countCondition = false
+}
+};
 
 /*
     Task: G
@@ -123,8 +139,6 @@ console.log(" ")
 console.log(" ")
 console.log("Task: G");
 console.log(" ")
-
-
 
 const DICTIONARY_ML = {
     no: {
